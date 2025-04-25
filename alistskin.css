@@ -11,7 +11,8 @@
 #root>.header {
 	width:76%;
 	padding:0px 5%;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	border-radius:30px 30px 0px 0px;
 	margin:80px auto 0px;
 	padding:0px 5% 30px;
@@ -95,8 +96,10 @@
 }
 #root>.header .header-right button {
 	border-radius:6px 0px 0px 6px;
-	background-color:#FFF;
-	box-shadow:2px 2px 10px 0px #e8e8e8;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
+	/*box-shadow:2px 2px 10px 0px #e8e8e8;*/
+	box-shadow: 2px 2px 10px 0px rgba(232, 232, 232, 0.7); /* 阴影也半透明 */
 	-webkit-tap-highlight-color:transparent;
 	-webkit-tap-highlight-color:rgba(255,255,255,0);
 	-webkit-user-select:none;
@@ -104,15 +107,24 @@
 	-moz-user-select:none;
 	transition:0s;
 }
+/** 背景 */
+body {
+  background-image: url("https://www.loliapi.com/acg/"); /* 背景图片 */
+  background-size: cover; /* 图片覆盖整个背景 */
+  background-position: center; /* 图片居中 */
+  background-attachment: fixed; /* 背景固定（不随滚动条移动） */
+}
 .left-toolbar-box {
 	width:32px;
 	position:fixed;
 	top:20% !important;
 	right:0px !important;
 	bottom:auto !important;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	border-radius:6px 0px 0px 6px;
-	box-shadow:2px 2px 10px 0px #e8e8e8;
+	/*box-shadow:2px 2px 10px 0px #e8e8e8;*/
+	box-shadow: 2px 2px 10px 0px rgba(232, 232, 232, 0.7); /* 阴影也半透明 */
 	transform:translateY(168px);
 	overflow:hidden;
 	-webkit-tap-highlight-color:transparent;
@@ -120,6 +132,9 @@
 	-webkit-user-select:none;
 	-moz-user-focus:none;
 	-moz-user-select:none;
+}
+.hope-ui-light{
+    --hope-colors-background: #ffffff00;
 }
 .left-toolbar-box:hover {
 	width:32px;
@@ -150,7 +165,7 @@
 	color:#1890ff;
 }
 #root .obj-box {
-	background-color:#FFFFFF;
+	background-color:#FFFFFF00;
 }
 #root .obj-box>.hope-stack>.hope-stack {
 	margin:10px 0px 20px;
@@ -161,7 +176,8 @@
 #root>div:nth-child(2) {
 	width:76%;
 	padding:0px 5%;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	padding-bottom:50px;
 }
 #root>div:nth-child(2)>div:nth-child(1) {
@@ -172,7 +188,8 @@
 }
 #root>.footer {
 	width:76%;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	padding:0px 0px 30px;
 	font-size:13px;
 	color:#888888;
@@ -197,13 +214,17 @@
 #root>.footer>div .flower_footer_codea:hover {
 	background-color:rgba(132,133,141,0.18);
 }
+.hope-c-kvTTWD-hYRNAb-variant-filled {
+	background-color:#FFFFFF00;
+}
 .flower_subunit_btn {
 	position:fixed;
 	top:20%;
 	right:0;
 	width:32px;
 	height:32px;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	border-radius:6px 0px 0px 6px;
 	box-shadow:2px 2px 10px 0px #e8e8e8;
 	transform:translateY(42px);
@@ -217,7 +238,7 @@
 .flower_subunit_btn>div {
 	cursor:pointer;
 	-webkit-tap-highlight-color:transparent;
-	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-tap-highlight-color:rgba(255,255,255,0.7);
 	-webkit-user-select:none;
 	-moz-user-focus:none;
 	-moz-user-select:none;
@@ -240,7 +261,8 @@
 	right:0;
 	width:32px;
 	height:32px;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	border-radius:6px 0px 0px 6px;
 	box-shadow:2px 2px 10px 0px #e8e8e8;
 	transform:translateY(84px);
@@ -275,7 +297,8 @@
 	right:0;
 	width:32px;
 	height:32px;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	border-radius:6px 0px 0px 6px;
 	box-shadow:2px 2px 10px 0px #e8e8e8;
 	transform:translateY(126px);
@@ -316,7 +339,8 @@
 	border-right:2px solid #4d85ff;
 	font-size:13px;
 	letter-spacing:1px;
-	background-color:#FFF;
+	/*background-color:#FFF;*/
+	background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 不透明度 */
 	box-shadow:2px 2px 10px 0px #e8e8e8;
 	transition:5s;
 }
